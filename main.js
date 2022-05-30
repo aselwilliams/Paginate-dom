@@ -54,8 +54,6 @@ if(currentPage===lastPage){
     }
 }
 
-
-
 function paginate(e){
 uList.innerHTML='';
 
