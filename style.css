@@ -1,0 +1,46 @@
+body{
+    margin: 0 auto;
+    font-family: Calibri;
+    text-align: center;
+}
+.container{
+    margin: auto;
+    width: 50vw;
+}
+table{
+    border-collapse: collapse;
+}
+td,
+th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 10px;
+    }
+
+.btn-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:20px;
+}
+.number-btns{
+    display: flex;
+    align-items: center;
+    padding: 0;
+}
+ul li{
+    border:1px solid rgb(112, 112, 225);
+    list-style-type: none;
+    width: 20px;
+    text-align: center;
+    padding: 10px;
+    color: rgb(112, 112, 225);
+    cursor: pointer;
+}
+button{
+    width:40px;
+    height: 40px;
+    padding: 10px;
+    color:rgb(112, 112, 225);
+    cursor:pointer;
+}
